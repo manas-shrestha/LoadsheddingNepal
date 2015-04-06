@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dip"
+    android:background="#50000000" >
+
+    <TextView
+        android:id="@+id/first"
+        style="@style/AudioFileInfoOverlayText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:text="Static Text"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/second"
+        style="@style/AudioFileInfoOverlayText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/first"
+        android:layout_centerHorizontal="true"
+        android:text="TextView"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/timeremaining"
+        style="@style/AudioFileInfoOverlayText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginRight="10dp"
+        android:text="00:00"
+        android:textColor="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="140dp"
+        android:src="@drawable/lightoff" />
+
+    <ImageButton
+        android:id="@+id/weathericon"
+        android:layout_width="60dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="130dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/weathernotavailable" />
+
+    <TextView
+        android:id="@+id/weathertv"
+        style="@style/AudioFileInfoOverlayText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/weathericon"
+        android:layout_marginLeft="25dp"
+        android:text="20 c"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/time"
+        style="@style/AudioFileInfoOverlayText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="09:00 AM"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/dateandday"
+        style="@style/AudioFileInfoOverlayText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/time"
+        android:layout_centerHorizontal="true"
+        android:text="Date And Day"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/weatherdesc"
+        style="@style/AudioFileInfoOverlayText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dateandday"
+        android:layout_centerHorizontal="true"
+        android:text="Cloudy"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LoadShedding</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="open_weather_maps_app_id">92ae1912be5bcdc77c44967cd590056c</string>
+
+</resources>

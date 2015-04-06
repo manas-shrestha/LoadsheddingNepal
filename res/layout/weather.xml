@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlweather101"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#50000000" >
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/AudioFileInfoOverlayText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Location"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/weatherrain" />
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/AudioFileInfoOverlayText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="200 c"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="70sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/AudioFileInfoOverlayText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Large Text" />
+
+    <ImageButton
+        android:id="@+id/search1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/search" 
+        android:scaleType="fitXY"
+        android:background="@null"
+        />
+
+</RelativeLayout>
